@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Post Office App</title>
+    <link
+      rel="shortcut icon"
+      href="imgs/icons8-map-64.png"
+      type="image/x-icon"
+    />
+
+    <!--link CSS-->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container2">
+      <p>IP Address : <span id="ip-address2"></span></p>
+
+      <div class="lat-long">
+        <div>
+          <p>Lat : <span></span></p>
+          <p>Long : <span></span></p>
+        </div>
+        <div>
+          <p>City : <span></span></p>
+          <p>Region : <span></span></p>
+        </div>
+        <div>
+          <p>Organisation : <span></span></p>
+          <p>Host Name : <span></span></p>
+        </div>
+      </div>
+
+      <div class="map">
+        <p>Your Current Location</p>
+        <div id="map"></div>
+      </div>
+
+      <h3>More Information About You</h3>
+      <div class="more-info">
+        <p>Time Zone: <span></span></p>
+        <p>Date And Time: <span></span></p>
+        <p>Pincode: <span></span></p>
+        <p>Message: Number of pincode(s) found: <span></span></p>
+      </div>
+
+      <h3>Post Offices Near You</h3>
+      <div class="editable-div" contenteditable="true" onkeypress="remove()">
+        <img src="imgs/Vector (3).png" style="height: 20px; width: 20px" />
+        Search By Name
+      </div>
+      <div class="cards">
+        <!-- <div class="flex">
+                <div class="card">
+                    <p>Name: <span>purnima</span></p>
+                    <p>Branch Type: <span>purnima</span></p>
+                    <p>Delivery Status: <span>purnima</span></p>
+                    <p>District: <span>purnima</span></p>
+                    <p>Division: <span>purnima</span></p>
+                </div>
+                <div class="card">
+                    <p>Name: <span>purnima</span></p>
+                    <p>Branch Type: <span>purnima</span></p>
+                    <p>Delivery Status: <span>purnima</span></p>
+                    <p>District: <span>purnima</span></p>
+                    <p>Division: <span>purnima</span></p>
+                </div>
+            </div>
+            <div class="flex">
+                <div class="card">
+                    <p>Name: <span>purnima</span></p>
+                    <p>Branch Type: <span>purnima</span></p>
+                    <p>Delivery Status: <span>purnima</span></p>
+                    <p>District: <span>purnima</span></p>
+                    <p>Division: <span>purnima</span></p>
+                </div>
+                <div class="card">
+                    <p>Name: <span>purnima</span></p>
+                    <p>Branch Type: <span>purnima</span></p>
+                    <p>Delivery Status: <span>purnima</span></p>
+                    <p>District: <span>purnima</span></p>
+                    <p>Division: <span>purnima</span></p>
+                </div>
+            </div>
+            <div class="flex">
+                <div class="card">
+                    <p>Name: <span>purnima</span></p>
+                    <p>Branch Type: <span>purnima</span></p>
+                    <p>Delivery Status: <span>purnima</span></p>
+                    <p>District: <span>purnima</span></p>
+                    <p>Division: <span>purnima</span></p>
+                </div>
+                <div class="card">
+                    <p>Name: <span>purnima</span></p>
+                    <p>Branch Type: <span>purnima</span></p>
+                    <p>Delivery Status: <span>purnima</span></p>
+                    <p>District: <span>purnima</span></p>
+                    <p>Division: <span>purnima</span></p>
+                </div>
+            </div>
+            <div class="flex">
+                <div class="card">
+                    <p>Name: <span>purnima</span></p>
+                    <p>Branch Type: <span>purnima</span></p>
+                    <p>Delivery Status: <span>purnima</span></p>
+                    <p>District: <span>purnima</span></p>
+                    <p>Division: <span>purnima</span></p>
+                </div>
+                <div class="card">
+                    <p>Name: <span>purnima</span></p>
+                    <p>Branch Type: <span>purnima</span></p>
+                    <p>Delivery Status: <span>purnima</span></p>
+                    <p>District: <span>purnima</span></p>
+                    <p>Division: <span>purnima</span></p>
+                </div>
+            </div> -->
+      </div>
+    </div>
+
+    <!--link JS-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>

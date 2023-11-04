@@ -1,0 +1,305 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.about-app {
+  background: rgba(0, 0, 0, 1);
+  width: 40%;
+  padding: 20px;
+}
+
+.about-app h2 {
+  font-family: "Montserrat", sans-serif;
+  color: rgba(87, 90, 133, 1);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.about-app p {
+  color: rgba(184, 188, 204, 1);
+  margin-top: 20px;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.about-app img {
+  width: 450px;
+  height: 400px;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+.address {
+  background: rgba(87, 90, 133, 1);
+  width: 60%;
+  padding-block: 20%;
+  padding-inline: 100px;
+}
+
+.address h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 44px;
+  letter-spacing: 0em;
+  color: rgba(184, 188, 204, 1);
+}
+
+.address h2 span {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43.57px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.get-started {
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  border: 2px solid rgba(184, 188, 204, 1);
+  background: transparent;
+  color: rgba(184, 188, 204, 1);
+  margin: 20px;
+  margin-left: 200px;
+}
+
+/* Map Html CSS */
+::-webkit-scrollbar {
+  display: none;
+}
+
+.container2 {
+  background: rgba(0, 0, 0, 1);
+  width: 100vw;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.container2 p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 41px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(184, 188, 204, 0.5);
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.container2 p span {
+  color: rgba(184, 188, 204, 1);
+}
+
+.lat-long {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.lat-long div p {
+  color: rgba(184, 188, 204, 0.5);
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.map {
+  height: 650px;
+  background: rgba(87, 90, 133, 1);
+}
+
+.map p {
+  text-align: center;
+  color: rgba(184, 188, 204, 1);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 59px;
+  letter-spacing: 0em;
+  font-family: "Montserrat", sans-serif;
+  margin-block: 20px;
+}
+
+#map {
+  width: 80%;
+  height: 80%;
+  margin: 0 auto;
+}
+
+.container2 h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 59px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgba(184, 188, 204, 1);
+  margin-top: 20px;
+}
+
+.more-info p {
+  font-family: "Inter", sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 41px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.more-info p span {
+  font-family: "Inter", sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 41px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(184, 188, 204, 1);
+}
+
+.editable-div {
+  width: 1100px;
+  height: 30px;
+  border-radius: 3px;
+  border: 2px solid rgba(87, 90, 133, 1);
+  background: transparent;
+  margin-block: 20px;
+  margin-inline: 80px;
+  padding-left: 50px;
+  padding-top: 10px;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  color: rgba(184, 188, 204, 1);
+}
+
+.flex {
+  display: flex;
+  margin-top: 40px;
+  margin-inline: 20px;
+  padding-inline: 20px;
+}
+
+.card {
+  width: 500px;
+  height: fit-content;
+  background: rgba(87, 90, 133, 1);
+  border-radius: 10px;
+  padding: 10px;
+  margin-inline: 50px;
+}
+
+.card p {
+  font-weight: 400;
+  font-size: 28px;
+}
+
+.card span {
+  color: rgba(184, 188, 204, 0.5);
+  font-weight: 400;
+  font-size: 28px;
+  margin-left: 10px;
+}
+
+/* Your existing CSS */
+
+@media only screen and (max-width: 600px) {
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+  }
+
+  .about-app {
+    background: rgba(0, 0, 0, 1);
+    width: 100%;
+    padding: 20px;
+  }
+
+  .about-app img {
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+  }
+
+  .address {
+    background: rgba(87, 90, 133, 1);
+    width: 100%;
+    padding: 20px;
+  }
+
+  .address h2 {
+    font-family: "Inter", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0em;
+    color: rgba(184, 188, 204, 1);
+  }
+
+  .address h2 span {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43.57px;
+    color: rgba(255, 255, 255, 1);
+  }
+
+  .get-started {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid rgba(184, 188, 204, 1);
+    background: transparent;
+    color: rgba(184, 188, 204, 1);
+    margin: 20px auto;
+  }
+
+  .container2 {
+    width: 100%;
+  }
+
+  .lat-long {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .map {
+    height: 600px;
+  }
+
+  #map {
+    width: 100%;
+    height: 100%;
+  }
+
+  .editable-div {
+    width: 90%;
+    margin: 20px auto;
+    padding: 5px;
+  }
+
+  .flex {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+    margin: 10px 0;
+  }
+}

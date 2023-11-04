@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Post Office App</title>
+    <link
+      rel="shortcut icon"
+      href="imgs/icons8-map-64.png"
+      type="image/x-icon"
+    />
+
+    <!--link CSS-->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="about-app">
+        <h2>Post Office Application.</h2>
+        <p>
+          This Application Allows you to extract information about the nearest
+          Post Offices, based on your location.
+        </p>
+        <img src="imgs/undraw_messenger_re_8bky 1.png" alt="image" />
+      </div>
+      <div class="address">
+        <h2>Your Current IP Address is <span id="ip-address"></span></h2>
+        <button class="get-started" onclick="redirectToMap()">
+          Get Started
+        </button>
+      </div>
+    </div>
+
+    <!--link JS-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
